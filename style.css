@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#container{
+border: 2px solid black;
+height: 60vh;
+width: 35vw;
+display: flex;
+justify-content: center;
+flex-direction: column;
+display: inline-block;
+position: fixed;
+margin-left: 25vw;
+margin-top: 20vh;
+background-color: rgb(212, 209, 209);
+}
+#items{
+    position: absolute;
+    margin-left:10vw ;
+    margin-top: 15vh;
+    
+}
+
+
+input{
+    margin-bottom:15px;
+    height: 4.5svh;
+    font-size: large;
+    text-align: center;
+    border-radius: 1vw;
+    width: 7vw;
+    font-weight: bolder;
+    margin-left:2vw ;
+}
+span{
+    display: inline-block;
+    margin-bottom: 2vh;
+    font-weight: bolder;
+    font-size: large;
+   
+  
+}
+p{
+    display: inline-block;
+    border: 1px solid white;
+    width: 10vw;
+    height: 3.5vh;
+    font-size: larger;
+    font-weight: bolder;
+      position: fixed;
+      border-radius:0.5vw ;
+     border: none;
+      background-color:wheat;
+
+}
+.previous-guess{
+    margin-left: 2.5vw;
+}
+.result{
+    margin-left: 7.9vw;
+}
+.score{
+    margin-left: 8.3vw;
+}
+.remaining-guess{
+    margin-left: 1.4vw;
+}
+.button{
+    margin-left: 3vw; 
+    margin-top: 2.5vh;
+    display: inline-block;
+    width: 5vw;
+   
+    
+}
